@@ -14,6 +14,8 @@ This project was considered complete when the following criteria were met:
 # Timeline
 The project was slated to take 3-4 months, due to committing a few hours a week to it only. Initial feedback regarding the functionality of the script gave me an idea of how many LOC this project would be; I estimated that I could produce a script that is less than 700 LOC. Testing was ongoing as each function of the script was completed, and feedback was solicited regularly from my team. 
 
+1-on-1 meetings were held every Monday with my direct supervisor to go over status of the project. Also of note, due to COVID restrictions, the entirety of this project and meetings were done from a work from home standpoint.
+
 
 # Tools Used
 - [VS Code](https://code.visualstudio.com)
