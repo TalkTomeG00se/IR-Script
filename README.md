@@ -1,11 +1,19 @@
 # IR-Script
-This project aims to enable members of a Incident Response team to quickly triage various alerts that require in-depth investigation.
+This project aimed to enable members of a Incident Response team to quickly triage various alerts that require in-depth investigation.
 The tool was developed as a powershell script for the following reasons:
 - Easily shared amongst team members
 - Ability to upgrade and adapt the script depending on changing needs
 - Powershells' integration across the Microsoft environment
 
-Note: As mentioned below, this script does not work outside the Micron environment. Also, certain steps are confidential. However, best effort will be made below to show both steps needed for CS 481 consideration as well as my techincal knowledge.
+This project was considered complete when the following criteria were met:
+- The script could capture the following information about a user: ID, username, AD Status, User Systems, and Resolve IP to Hostname
+- Error handling was in place to account for incorrectly input IDs , Usernames and IPs.
+- Error handling was in place for non-existent IDs, Usernames, and IPs not without our domain.
+
+
+# Timeline
+The project was slated to take 3-4 months, due to committing a few hours a week to it only. Initial feedback regarding the functionality of the script gave me an idea of how many LOC this project would be; I estimated that I could produce a script that is less than 700 LOC. Testing was ongoing as each function of the script was completed, and feedback was solicited regularly from my team. 
+
 
 # Tools Used
 - [VS Code](https://code.visualstudio.com)
@@ -19,6 +27,9 @@ Note: As mentioned below, this script does not work outside the Micron environme
 ```powershell
 Get-WindowsCapability -Name "Rsat.ActiveDirectory.DS-LDSTools*" -Online | Add-WindowsCapability -Online
 ```
+- As this script is internal, there are also necessary account permissions required to utilize the various Active Directory/API commands. Anyone
+that is using the script internally would already have such persmissions.
+
 # Usage
 Navigate to directory containing the script. (TBD - name of script)
 
@@ -42,13 +53,15 @@ TBD - Option 4 successful screenshot
 
 # Contributors
 - Colten Davis (myself)
-- C. Kirkman 
-- S. Robles
+- Chris
+- Steve
 
 # Notes
-This project was worked on interally to Micron. Thus, there are no sequence of committs due to legal policies. Once the project was cleared by my legal department, the entirety of the script was committed here at once. 
+This project was worked on interally to Micron. Thus, there are no sequence of committs due to legal policies. Once the project was cleared by Micron, the entirety of the script was committed here at once. 
 
-Micron contributors as well have been limited to their first initial and their last name to keep their identities confidential.
+Also, as there are certain API calls and other confidential commands in the script, those confidential lines in the script have been replaced with a detailed comment.
+
+Micron contributors as well have been limited to their first name to keep their identities confidential.
 
 # Contact
 Colten Davis - coltendavis@u.boisestate.edu
