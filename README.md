@@ -41,7 +41,7 @@ Navigate to directory containing the script. (TBD - name of script)
 ```
 You will be presented with the options screen below:
 
-TBD - Screenshot of menu
+![Menu Pix](/img/MainMenu.jpg)
 
 # Contributors
 - Colten Davis (myself)
