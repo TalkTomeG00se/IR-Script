@@ -43,16 +43,6 @@ You will be presented with the options screen below:
 
 TBD - Screenshot of menu
 
-Examples of output for each option are below:
-
-TBD - Option 1 successful screenshot
-
-TBD - Option 2 successful screenshot
-
-TBD - Option 3 successful screenshot
-
-TBD - Option 4 successful screenshot
-
 # Contributors
 - Colten Davis (myself)
 - Chris
