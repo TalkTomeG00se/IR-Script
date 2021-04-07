@@ -43,6 +43,10 @@ You will be presented with the options screen below:
 
 ![Menu Pix](img/MainMenu.JPG)
 
+Given the option chosen, the required data will be requested such as a username, IP, or a user ID #.
+Once entered, that will return either the output desired, or if no results are available, or error, the
+program prints out an error message.
+
 # Contributors
 - Colten Davis (myself)
 - Chris
